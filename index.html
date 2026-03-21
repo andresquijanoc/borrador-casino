@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Manrope:wght@400;500;600;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary-fixed-dim": "#eac249",
+              "on-primary": "#3c2f00",
+              "outline-variant": "#4d4635",
+              "tertiary-fixed": "#e2e2e2",
+              "on-background": "#e2e2e2",
+              "background": "#131313",
+              "surface": "#131313",
+              "secondary-fixed": "#ffe08b",
+              "primary-fixed": "#ffe088",
+              "secondary-container": "#b08c10",
+              "tertiary": "#cecece",
+              "error-container": "#93000a",
+              "surface-dim": "#131313",
+              "surface-container-high": "#2a2a2a",
+              "surface-container": "#1f1f1f",
+              "tertiary-fixed-dim": "#c6c6c7",
+              "on-secondary-fixed": "#241a00",
+              "error": "#ffb4ab",
+              "surface-container-low": "#1b1b1b",
+              "primary-fixed-dim": "#e9c349",
+              "on-tertiary-container": "#434546",
+              "on-tertiary": "#2f3131",
+              "on-secondary-container": "#352800",
+              "inverse-on-surface": "#303030",
+              "on-error-container": "#ffdad6",
+              "surface-tint": "#e9c349",
+              "secondary": "#eac249",
+              "inverse-primary": "#735c00",
+              "on-primary-container": "#554300",
+              "on-secondary-fixed-variant": "#584400",
+              "primary": "#f2ca50",
+              "surface-bright": "#393939",
+              "primary-container": "#d4af37",
+              "on-surface-variant": "#d0c5af",
+              "on-tertiary-fixed": "#1a1c1c",
+              "on-primary-fixed-variant": "#574500",
+              "outline": "#99907c",
+              "surface-container-lowest": "#0e0e0e",
+              "tertiary-container": "#b2b3b3",
+              "on-error": "#690005",
+              "on-surface": "#e2e2e2",
+              "on-primary-fixed": "#241a00",
+              "surface-variant": "#353535",
+              "surface-container-highest": "#353535",
+              "on-secondary": "#3d2f00",
+              "inverse-surface": "#e2e2e2",
+              "on-tertiary-fixed-variant": "#454747"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #f2ca50 0%, #d4af37 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-gradient-bg {
+            background: linear-gradient(135deg, #f2ca50 0%, #d4af37 100%);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body selection:bg-primary selection:text-on-primary">
+<!-- TopAppBar Shell -->
+<header class="fixed top-0 left-0 w-full flex justify-between items-center px-6 py-4 bg-[#131313] z-50">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary cursor-pointer" data-icon="menu">menu</span>
+</div>
+<div class="text-xl font-headline font-bold tracking-[0.2em] uppercase gold-gradient-text">
+            SOVEREIGN
+        </div>
+<div class="w-8 h-8 rounded-full border border-primary/30 overflow-hidden">
+<img alt="Profile" class="w-full h-full object-cover" data-alt="User profile gold frame" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgtsK5RtuMFXvbgfGmT54l7VkSUU32Wwhg-ZHK9QWOz1sY6dJuFO5sryFEHUWus0XtGHUkD7Lrs9SrA_RVe2uxiyVb1Y3HdS67x1GnsS5lTMJVD1gI-2Yn7Uhrdp1ri5dQM-yGsC9V9GYdFefzUuADkXBO6AjkbTYAGfIjzIvIHZQYVd3NaGGDkNZmijd_7Pg3ddzlkwzg5vQvCa1jq3io_-1dSIpomrD9qBoeqQd9iDNkik3L3P4Xfve_XEK_kO0xneKzgfa2DXMa"/>
+</div>
+</header>
+<main class="pt-16 pb-24">
+<!-- Hero Section -->
+<section class="relative w-full h-[574px] overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent z-10"></div>
+<img alt="Casino Interior" class="w-full h-full object-cover" data-alt="Luxury casino interior with gold chandeliers and high stakes tables" src="https://lh3.googleusercontent.com/aida-public/AB6AXuABU_g5IiSyleu5l7qWrqumoJlNjK8ZUocM3H89Kk9nwfnfBGknwGncD0zu7TJvntdupgBP53rXfqzPQsetJkzdJXEQiHsgNGzGHjd1vi1Lm0WixEQaWMB68Kbyt18Xt8hg_KJmyprZ_MrlYXXIPKrhJ6mGyAZwunSKIRSaHJ29JssngRfmg9g7zco_TEhybKpnCE6XFf8lLIG6YYHnt5ztciiGmRuyl_1tM3Fp2nWYypZg8SuoNhFYQgwFwxlg002qZAtJDnoVtFYY"/>
+<div class="absolute bottom-0 left-0 w-full p-8 z-20 flex flex-col items-start">
+<span class="font-label text-primary tracking-[0.3em] uppercase text-xs mb-2">Exclusive Entry</span>
+<h1 class="font-headline text-4xl font-bold text-on-surface leading-tight mb-4">The Grand Hall</h1>
+</div>
+</section>
+<!-- Description Section -->
+<section class="px-8 py-12 bg-surface">
+<div class="max-w-md">
+<div class="w-12 h-[1px] bg-primary mb-8"></div>
+<p class="font-headline text-xl italic text-on-surface leading-relaxed mb-6">
+                    Experience the zenith of luxury and excitement in the heart of the city. 
+                    <span class="text-on-surface-variant font-body text-base not-italic block mt-4">
+                        A sanctuary where fortune meets sophistication, designed for those who command the best.
+                    </span>
+</p>
+<a class="inline-flex items-center gap-2 group" href="#">
+<span class="font-label text-primary font-bold tracking-widest uppercase text-sm group-hover:underline decoration-primary">Explore Details</span>
+<span class="material-symbols-outlined text-primary text-lg group-hover:translate-x-1 transition-transform" data-icon="arrow_right_alt">arrow_right_alt</span>
+</a>
+</div>
+</section>
+<!-- Asymmetric Bento-style Features -->
+<section class="px-8 pb-12 grid grid-cols-2 gap-4">
+<div class="col-span-2 aspect-[16/9] bg-surface-container-low rounded-xl p-6 flex flex-col justify-end relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-4">
+<span class="material-symbols-outlined text-primary/40 text-4xl" data-icon="auto_awesome">auto_awesome</span>
+</div>
+<h3 class="font-headline text-primary text-xl mb-1">High Stakes</h3>
+<p class="text-on-surface-variant text-sm">Private vaults for the distinguished.</p>
+</div>
+<div class="col-span-1 aspect-square bg-surface-container-low rounded-xl p-4 flex flex-col justify-center items-center text-center">
+<span class="material-symbols-outlined text-primary mb-3 text-3xl" data-icon="restaurant">restaurant</span>
+<h4 class="font-label font-bold text-xs uppercase tracking-tighter">Fine Dining</h4>
+</div>
+<div class="col-span-1 aspect-square bg-surface-container-low rounded-xl p-4 flex flex-col justify-center items-center text-center">
+<span class="material-symbols-outlined text-primary mb-3 text-3xl" data-icon="wine_bar">wine_bar</span>
+<h4 class="font-label font-bold text-xs uppercase tracking-tighter">Vintage Cellar</h4>
+</div>
+</section>
+<!-- CTA Action -->
+<section class="px-8 mb-12">
+<button class="w-full py-5 gold-gradient-bg text-on-primary font-label font-extrabold uppercase tracking-widest rounded-lg shadow-2xl hover:brightness-110 active:scale-95 transition-all">
+                Enter Lobby
+            </button>
+</section>
+</main>
+<!-- BottomNavBar Shell -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 py-3 pb-safe bg-[#0e0e0e]/90 backdrop-blur-md z-50 rounded-t-xl border-t border-primary/10 shadow-[0_-4px_20px_rgba(0,0,0,0.5)]">
+<!-- Lobby: Active -->
+<div class="flex flex-col items-center justify-center text-[#f2ca50] scale-110">
+<span class="material-symbols-outlined" data-icon="casino" style="font-variation-settings: 'FILL' 1;">casino</span>
+<span class="font-label text-[10px] font-medium uppercase tracking-tighter mt-1">Lobby</span>
+</div>
+<!-- Tables -->
+<div class="flex flex-col items-center justify-center text-[#d0c5af] opacity-60 hover:text-[#f2ca50] transition-all">
+<span class="material-symbols-outlined" data-icon="grid_view">grid_view</span>
+<span class="font-label text-[10px] font-medium uppercase tracking-tighter mt-1">Tables</span>
+</div>
+<!-- Slots -->
+<div class="flex flex-col items-center justify-center text-[#d0c5af] opacity-60 hover:text-[#f2ca50] transition-all">
+<span class="material-symbols-outlined" data-icon="slot_machine">casino</span>
+<span class="font-label text-[10px] font-medium uppercase tracking-tighter mt-1">Slots</span>
+</div>
+<!-- Vault -->
+<div class="flex flex-col items-center justify-center text-[#d0c5af] opacity-60 hover:text-[#f2ca50] transition-all">
+<span class="material-symbols-outlined" data-icon="account_balance_wallet">account_balance_wallet</span>
+<span class="font-label text-[10px] font-medium uppercase tracking-tighter mt-1">Vault</span>
+</div>
+<!-- Profile -->
+<div class="flex flex-col items-center justify-center text-[#d0c5af] opacity-60 hover:text-[#f2ca50] transition-all">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-label text-[10px] font-medium uppercase tracking-tighter mt-1">Profile</span>
+</div>
+</nav>
+</body></html>
